@@ -9,8 +9,9 @@ Esta aplicación en Java se conecta a una base de datos PostgreSQL para mostrar 
 - Tabla para mostrar los nombres de los conductores y sus puntos totales.
 - Barra de progreso para indicar la carga de datos en segundo plano.
 
-## CODIGO
+## Código
 
+```java
 package corredores;
 
 import javax.swing.*;
@@ -169,6 +170,7 @@ public class PuntosCorredores {
         SwingUtilities.invokeLater(PuntosCorredores::new);
     }
 }
+```
 
 
 ## CAPTURA DE EJECUCION 
